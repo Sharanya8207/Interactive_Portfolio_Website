@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sharanya | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="st.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header">
+  <h2 class="logo">Sharanya</h2>
+ <nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1 class="reveal">Hi, I'm <span>Sharanya</span></h1>
+    <h3 class="typing"></h3>
+    <p data-aos="fade-up" data-aos-delay="200">
+      Frontend Developer with strong problem-solving skills and a passion for clean UI
+    </p>
+  </div>
+
+  <!-- Floating shapes -->
+  <div class="shapes">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section class="about" id="about" data-aos="fade-up">
+  <img src="my_pic.jpeg" alt="Sharanya Photo">
+
+  <div class="about-content">
+    <h2>Sharanya</h2>
+    <h4>Frontend Developer | DSA Enthusiast</h4>
+
+    <p>
+      I am a final-year B.Tech student at <strong>Ravindra College of Engineering for Women</strong>,
+      with a strong interest in frontend web development and problem-solving using
+      Data Structures and Algorithms. I have participated in multiple coding competitions
+      and achieved good scores, which strengthened my analytical and coding skills.
+    </p>
+
+    <ul class="facts">
+      <li>🎓 Final Year B.Tech Student</li>
+      <li>💻 Strong in DSA & Frontend Development</li>
+      <li>🏆 Active Coding Contest Participant</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== GALLERY SECTION ===== -->
+<section class="gallery-section" id="gallery">
+  <h2 data-aos="fade-up">My Inspirations & Passions</h2>
+  <p data-aos="fade-up" data-aos-delay="150">
+    What motivates and inspires my journey in technology
+  </p>
+
+  <!-- Floating shapes -->
+  <div class="floating-shapes">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item" data-aos="zoom-in">
+      <img src="coding.jpeg" onclick="openLightbox(this.src)">
+      <p>Coding & Problem Solving</p>
+    </div>
+
+    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+      <img src="A._P._J._Abdul_Kalam.jpg" onclick="openLightbox(this.src)">
+      <p>Dr. A.P.J. Abdul Kalam</p>
+    </div>
+
+    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+      <img src="software_enginer.jpeg" onclick="openLightbox(this.src)">
+      <p>Software Development</p>
+    </div>
+  </div>
+</section>
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact" id="contact" data-aos="fade-up">
+  <h2>Get In Touch</h2>
+  <p class="contact-subtitle">
+    Feel free to reach out for opportunities, collaborations, or queries
+  </p>
+
+  <div class="contact-cards">
+    <div class="contact-card" data-aos="zoom-in">
+      <span>📧</span>
+      <h4>Email</h4>
+      <p>sharanya.dev@gmail.com</p>
+    </div>
+
+    <div class="contact-card" data-aos="zoom-in" data-aos-delay="150">
+      <span>💼</span>
+      <h4>LinkedIn</h4>
+      <p>linkedin.com/in/sharanya</p>
+    </div>
+
+    <div class="contact-card" data-aos="zoom-in" data-aos-delay="300">
+      <span>💻</span>
+      <h4>GitHub</h4>
+      <p>github.com/yourusername</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox">
+  <span class="close" onclick="closeLightbox()">×</span>
+  <img id="lightbox-img">
+</div>
+
+<footer>
+  <p>© 2026 Sharanya</p>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="p.js"></script>
+</body>
+</html>
