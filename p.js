@@ -1,11 +1,5 @@
-// Scroll animations
-AOS.init({
-  duration: 1000,
-  once: true,
-  easing: 'ease-out-cubic'
-});
+AOS.init({ duration: 1000, once: true });
 
-// Typing animation
 const text = "Frontend Developer | DSA Enthusiast";
 let i = 0;
 
@@ -18,7 +12,6 @@ function typingEffect() {
 }
 typingEffect();
 
-// Lightbox
 function openLightbox(src) {
   document.getElementById("lightbox").style.display = "flex";
   document.getElementById("lightbox-img").src = src;
