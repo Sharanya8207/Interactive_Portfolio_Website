@@ -89,11 +89,13 @@ body {
 }
 
 .hero-photo img {
-  width: 280px;
-  height: 280px;
+  width: 220px;          /* smaller size */
+  height: 220px;
+  max-width: 100%;
   border-radius: 50%;
-  border: 5px solid #2563eb;
+  border: 4px solid #2563eb;
   object-fit: cover;
+  box-shadow: 0 15px 30px rgba(37, 99, 235, 0.25);
 }
 
 /* FLOATING SHAPES */
